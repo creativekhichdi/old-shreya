@@ -2001,6 +2001,10 @@ textarea.form-control {
 }
 
 .navbar .logo-light {
+  display: inline-block;
+}
+
+.navbar .logo-dark {
   display: none;
 }
 
@@ -6869,6 +6873,69 @@ textarea.form-control {
   overflow: hidden;
 }
 
+
+.widget_research {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.widget-help .widget__content_research {
+  position: relative;
+}
+
+.widget-help .widget__content_research:after {
+  content: "";
+  font-family: "icomoon";
+  position: absolute;
+  bottom: -220px;
+  left: -140px;
+  font-size: 300px;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.widget-help .widget__content_research h5,
+.widget-help .widget__content_research p {
+  color: #00778b;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.widget-help .widget__content_research h5 {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 27px;
+}
+
+.widget-help .widget__content_research p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 34px;
+  color: #000;
+}
+
+.widget-help .widget__content_research ul li{
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 14px;
+  color: #00778b !important;
+}
+
+.widget-help .widget__content_research .btn {
+  width: 125px;
+  height: 40px;
+  line-height: 38px;
+  z-index: 1;
+}
+
+.widget-help .widget__content_research .btn i {
+  margin-right: 8px;
+}
+
+
+
 .widget-help .widget__content {
   position: relative;
 }
@@ -7585,7 +7652,7 @@ textarea.form-control {
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(34, 48, 96, 0.8);
+  background: rgb(0, 119, 139, 80%);
   content: "";
   z-index: -1;
   opacity: 0;
@@ -7648,7 +7715,7 @@ textarea.form-control {
 }
 .team__text .team__title span {
   font-size: 15px;
-  color: #88c417;
+  color: #fff;
 }
 .team__text p {
   color: #e4e4e4;
@@ -7683,7 +7750,7 @@ textarea.form-control {
   margin-right: 0;
 }
 .team__text .team__social a:hover {
-  color: #88c417;
+  color: #fff;
 }
 @media (max-width: 768px) {
   .team__item {
@@ -7701,6 +7768,7 @@ textarea.form-control {
   margin: 0 auto;
   padding: 50px;
   max-width: 1200px;
+  z-index: 0;
 }
 /* Bar Graph Class */
 .barGraph {
@@ -7714,7 +7782,7 @@ textarea.form-control {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  width: calc(100% - 4%);
+  width: calc(90% - 4%);
   left: 20%;
 }
 .graph-barBack {
@@ -7903,7 +7971,6 @@ textarea.form-control {
 .trend line {
   stroke: rgba(204, 51, 51, 0.8);
 }
-<<<<<<< HEAD
 
 
 
@@ -7984,5 +8051,19 @@ textarea.form-control {
   display: flex;
   align-items: center;
 }
-=======
->>>>>>> parent of 2d2e631 (new-changes)
+
+.timeline-img img{
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+}
+
+.banner-icon img{
+    width: 20%;
+    height: auto;
+}
+
+.banner-icon:active img{
+  width: 20% !important;
+  height: auto;
+}
